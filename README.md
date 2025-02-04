@@ -26,14 +26,14 @@ pip install torch torchvision numpy pillow matplotlib
 Place your dataset inside a folder and follow this structure:
 
 
-```bash
-Dataset/
-│── train/
-│   ├── images/         # Input images
-│   ├── 1st_manual/     # Ground truth segmentation masks
-│── test/
-│   ├── images/  
-│   ├── 1st_manual/  
+     ```bash
+         Dataset/
+         │── train/
+         │   ├── images/         # Input images
+         │   ├── 1st_manual/     # Ground truth segmentation masks
+         │── test/
+         │   ├── images/  
+         │   ├── 1st_manual/  
 Modify the dataset path in train.py (default: D:\HardExudates). 
 ```markdown
 ## **Training the Model**
