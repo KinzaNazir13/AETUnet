@@ -14,7 +14,7 @@ AETUnet is a lightweight and efficient deep learning model based on the UNet arc
 ## Installation  
 
 ### **1. Clone the Repository**  
-```bash
+
 git clone https://github.com/KinzaNazir13/AETUnet.git
 cd AETUnet
 ## **2. Install Dependencies**
