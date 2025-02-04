@@ -47,7 +47,13 @@ python train.py --data-path /path/to/dataset --epochs 100 --batch-size 4 --lr 0.
            --batch-size → Number of samples per batch (default: 4)
            --lr → Learning rate (default: 0.0015)
 
+## Model
+The segmentation model is based on a custom UNet architecture (AETUnet), supporting:
 
+Adjustable input channels.
+Adjustable number of output classes.
+## Results
+The results, including loss and accuracy, are logged in a text file with a timestamp.
 
 ## Acknowledgments
 This repository is part of the research work on lightweight deep learning architectures for medical image segmentation. If you use this code, please consider citing the corresponding paper.
