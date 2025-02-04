@@ -24,7 +24,9 @@ pip install torch torchvision numpy pillow matplotlib
 
 ## **Dataset Structure**
 Place your dataset inside a folder and follow this structure:
-```bash
+
+
+
 Dataset/
 │── train/
 │   ├── images/         # Input images
@@ -32,9 +34,20 @@ Dataset/
 │── test/
 │   ├── images/  
 │   ├── 1st_manual/  
-Modify the dataset path in train.py (default: D:\HardExudates). ```bash
+Modify the dataset path in train.py (default: D:\HardExudates). 
 
 ## **Training the Model**
 Run the following command to start training:
 python train.py --data-path /path/to/dataset --epochs 100 --batch-size 4 --lr 0.0015
 
+
+Training Parameters:
+--data-path → Path to dataset folder
+--epochs → Number of training epochs (default: 100)
+--batch-size → Number of samples per batch (default: 4)
+--lr → Learning rate (default: 0.0015)
+
+
+
+## Acknowledgments
+This repository is part of the research work on lightweight deep learning architectures for medical image segmentation. If you use this code, please consider citing the corresponding paper.
