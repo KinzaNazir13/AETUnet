@@ -35,17 +35,17 @@ Place your dataset inside a folder and follow this structure:
          │   ├── images/  
          │   ├── 1st_manual/  
 Modify the dataset path in train.py (default: D:\HardExudates). 
-```markdown
+
 ## **Training the Model**
 Run the following command to start training:
 python train.py --data-path /path/to/dataset --epochs 100 --batch-size 4 --lr 0.0015
 
-
-Training Parameters:
---data-path → Path to dataset folder
---epochs → Number of training epochs (default: 100)
---batch-size → Number of samples per batch (default: 4)
---lr → Learning rate (default: 0.0015)
+     ```bash
+           Training Parameters:
+           --data-path → Path to dataset folder
+           --epochs → Number of training epochs (default: 100)
+           --batch-size → Number of samples per batch (default: 4)
+           --lr → Learning rate (default: 0.0015)
 
 
 
