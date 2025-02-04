@@ -24,6 +24,7 @@ pip install torch torchvision numpy pillow matplotlib
 
 ## **Dataset Structure**
 Place your dataset inside a folder and follow this structure:
+```bash
 Dataset/
 │── train/
 │   ├── images/         # Input images
@@ -31,7 +32,7 @@ Dataset/
 │── test/
 │   ├── images/  
 │   ├── 1st_manual/  
-Modify the dataset path in train.py (default: D:\HardExudates).
+Modify the dataset path in train.py (default: D:\HardExudates). ```bash
 
 ## **Training the Model**
 Run the following command to start training:
